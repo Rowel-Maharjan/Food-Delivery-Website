@@ -1,0 +1,117 @@
+/* NAVIGATION BAR  */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    padding: 0px 4px;
+    font-size: 1rem;
+}
+
+#logo img{
+    margin: 5px 15px;
+    width: 45px;
+    height: auto;
+}
+
+/* HOME SECTION */
+#home::before{
+    height: 300px;
+}
+#home{
+    height: 275px;
+}
+
+#home .h1_primary{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding: 12px;
+}
+
+#home p{
+    padding: 0px 18px;
+    font-family: serif;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+
+/* SERVICES */
+#services{
+    flex-direction: column;
+
+}
+#services .box{
+    margin-bottom: 25px;
+}
+
+
+
+/* CLIENT SECTION  */
+
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients img{
+    width: 80px;
+    height: auto;
+}
+
+
+/* Contact us */
+#contact-box form{
+    width: 60%;
+}
+.form-group{
+    margin: 8px 0px;
+}
+
+
+@media (min-width:300px) and (max-width: 480px) {
+    #contact-box button{
+        width: 30%;
+        padding: 2px 3px;
+        font-size: 10px;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-right: 12px ;
+    }
+}  
+
+
+
+@media (max-width: 300px) {
+    #navbar ul li a{
+        padding: 0px 4px;
+        font-size: 0.7rem;
+    }
+
+    #logo img{
+        margin: 5px 15px;
+        width: 30px;
+        height: auto;
+    } 
+
+    #contact-box button{
+        width: 30%;
+        padding: 2px 3px;
+        font-size: 10px;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-right: 12px ;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding: 3px 0px;
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+
+
