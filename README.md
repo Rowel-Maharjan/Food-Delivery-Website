@@ -14,4 +14,4 @@ This is a simple food delivery website using HTML and CSS only.
 # Contact Us
 ![image](https://github.com/Rowel-Maharjan/Food-Delivery-Website/assets/160736496/04a61f9d-0d10-41f1-a73b-eed70403f040)
 
-
+# ALso updated Phone version CSS.
